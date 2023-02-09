@@ -1,0 +1,134 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --purple-text: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media(max-width: 1080px){
+    html{
+      font-size: 93.75%;
+    }
+  }
+  @media(max-width: 720px){
+    html{
+      font-size: 87.5%;
+    }
+  }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media(max-width: 1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+@media(max-width: 720px){
+  html{
+    font-size: 87.5%;
+  }
+}
+
+body, input, textarea, button {
+  font: 400 1rem '<FONT>', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.section {
+    height: 100vh;
+    width: auto;
+    padding: 4rem 4rem;
+}
+
+/* HEADER */
+
+#header {
+    background-color: var(--purple-bg);
+    padding: 2rem 4rem;
+    color: var(--white);
+    justify-content: space-between;
+}
+
+#header span {
+    color: var(--green);
+}
+
+#header ul {
+align-items: center;
+}
+
+#header ul li {
+    padding: 0 1rem;
+    
+}
+
+#search input {
+background-color: var(--dark-bg);
+border-radius: 2px;
+border-style: hidden;
+} 
+
+#searchButton {
+   width: 2rem;
+   height: 2.3rem;
+} 
+
+/* HOME */
+
+#home {
+    height: calc(100vh - 101px);
+    background-color: var(--purple-bg);
+    border-bottom: 2px solid --green;
+}
+
+#homeText {
+    padding-right: 2rem;
+    color: var(--purple-text);
+}
+
+#homeText h1{
+font-size: 2.5rem;
+margin-bottom: 2rem;
+line-height: 3rem;
+}
+
+#homeText p {
+    color: var(--white);
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+#homeText div {
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#divider {
+    width: 100vw;
+    height: 4px;
+    background-color: var(--green);
+}
+
